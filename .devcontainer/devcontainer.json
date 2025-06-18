@@ -1,0 +1,16 @@
+{
+  "name": "Go Codespace",
+  "image": "mcr.microsoft.com/devcontainers/go:1.22",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.Go"
+      ]
+    }
+  },
+  "settings": {
+    "go.toolsManagement.autoUpdate": true
+  },
+  "remoteUser": "vscode"
+}
